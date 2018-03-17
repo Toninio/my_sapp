@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :players
+
   resources :coaches do
   #->Prelang (voting/acts_as_votable)
   member do
